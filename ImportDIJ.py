@@ -19,9 +19,10 @@ json_path = r"database\DIJHist.json" #path to save the json file
 today = datetime.datetime.now().strftime("%Y-%m-%d") #get the current date
 liquidity_months = [1, 4, 7, 10] #months with higher liquidity for DIJ contracts
 
-
 def requestB3API():
-    #request data from B3 APi
+    """
+        Request DIJ Future data from B3 API
+    """
     try:
         rqts = requests.get(url)
     except requests.exceptions.RequestException as e:
@@ -59,8 +60,10 @@ def requestB3API():
 
 
 def save_request(df_request=df_request, file_path=json_path):
-
-    today_verify = df_request["Date"].iloc[0] if not df_request.empty else datetime.date.today().strftime("%Y-%m-%d")
+    """
+    Saves the request data to a JSON file. If the file already exists, it appends the new data to it.
+    If the file does not exist, it creates a new one. If the file is corrupted, it resets the file with the new data.
+    """
 
     json_new_to_save = df_request.to_dict(orient="records")
 
