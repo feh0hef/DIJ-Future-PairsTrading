@@ -65,3 +65,67 @@ def mid_rate(sell_rate=float, buy_rate=float):
     mid_rate = round((sell_rate + buy_rate) / 2, 2)
     
     return mid_rate
+
+def average(RateOrSpreads: list):
+    """
+    Calculate the average rate/spread from a list of rates/spreads.
+    
+    Parameters:
+    - rates: A list of rates.
+    - spreads: A list of spreads.
+    
+    Returns:
+    avg: The calculated average  value.
+    """
+    if not RateOrSpreads:
+        return 0.0
+
+    avg = sum(RateOrSpreads) / len(RateOrSpreads)
+    
+    return avg
+
+def deviation(RateOrSpreads: list):
+    """
+    Calculate the standard deviation of a list of rates/spreads.
+    
+    Parameters:
+    - rates: A list of rates.
+    - spreads: A list of spreads.
+    
+    Returns:
+    std_dev: The calculated standard deviation value.
+    """
+    if not RateOrSpreads:
+            return 0.0
+
+    avg = average(RateOrSpreads)
+
+    variance = sum((x - avg) ** 2 for x in RateOrSpreads) / len(RateOrSpreads)
+
+    std_dev = round(variance ** 0.5, 2)
+    
+    return std_dev
+
+def covariance(x_list: list, y_list: list, sample: bool = True):
+    """
+    Calculate the covariance between two DIJs
+    """
+    
+    if not x_list or not y_list:
+        return 0.0
+    if len(x_list) != len(y_list):
+        raise ValueError("X,Y lists must have the same length.")
+        
+    n = len(x_list)
+  
+    avg_x = average(x_list)
+    avg_y = average(y_list)
+    
+    total_sum = sum((x - avg_x) * (y - avg_y) for x, y in zip(x_list, y_list))
+    
+    div = (n - 1) if sample else n
+    
+    if div <= 0:
+        return 0.0
+        
+    return round(total_sum / div, 2)
