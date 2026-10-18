@@ -6,8 +6,6 @@ import datetime
 import pandas as pd
 import numpy as np
 
-
-
 #global variables
 df_request = [] #will receive the data from the request
 url = "https://cotacao.b3.com.br/mds/api/v1/DerivativeQuotation/DI1" #B3 API URL
@@ -49,7 +47,7 @@ def requestB3API():
         df_request = df_request[pd.to_datetime(df_request['Mtry_Date'], errors='coerce').dt.month.isin(liquidity_months)].copy()
 
         df_request["Date"] = today
-        df_request = df_request.replace({np.nan: "", "NaN": ""})
+        df_request = df_request.replace({np.nan: 0, "NaN": 0})
 
     except KeyError as e:
         print("Error in DataFrame processing: ", e)

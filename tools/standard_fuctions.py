@@ -5,36 +5,31 @@ import numpy as np
 from pandas.tseries.offsets import BDay
 from datetime import datetime, date
 
-def bussiness_days_to_maturity(maturity_date, holidays_path=r'database\feriados_nacionais.json'):
+def bussiness_days_to_maturity(maturity_date, start_date=None, holidays_path=r'database\feriados_nacionais.json', _cached_holidays=[None]):
     """
-    Calculate the number of business days to maturity from today, excluding weekends and holidays.
-    
-    Parameters:
-    - maturity_date: The maturity date of the DIJ contract in 'YYYY-MM-DD' format.
-    - holidays_path: Path to the file containing national holidays.
-    
-    Returns:
-    - business_days: The number of business days to maturity.
+    Calculate the number of business days to maturity, excluding weekends and holidays.
     """
+    
+    if _cached_holidays[0] is None:
+        holidays_df = pd.read_json(holidays_path)
+        date_col = 'Data' if 'Data' in holidays_df.columns else 'Date'
+        cleaned_dates = pd.to_datetime(holidays_df[date_col], errors='coerce').dropna()
+        _cached_holidays[0] = np.array(cleaned_dates.dt.date.values, dtype='datetime64[D]')
+    
+    holidays = _cached_holidays[0]
 
-
-    holidays_df = pd.read_json(holidays_path)
-
-    date_col = 'Data' if 'Data' in holidays_df.columns else 'Date'
-
-    cleaned_dates = pd.to_datetime(holidays_df[date_col], errors='coerce')
-    cleaned_dates = cleaned_dates.dropna()
-    holidays = cleaned_dates.dt.date.values
-    holidays = np.array(holidays, dtype='datetime64[D]')
-
-    today = np.datetime64(pd.Timestamp.now().date())
+    
+    if start_date is None:
+        start_date = pd.Timestamp.now().date()
+        
+    start = np.datetime64(pd.to_datetime(start_date).date())
     maturity = np.datetime64(pd.to_datetime(maturity_date).date())
     
-    # If the contract has already matured, return 0 business days
-    if maturity <= today:
+    
+    if maturity <= start:
         return 0 
 
-    business_days = np.busday_count(today, maturity, weekmask='1111100', holidays=holidays)
+    business_days = np.busday_count(start, maturity, weekmask='1111100', holidays=holidays)
     
     return int(business_days)
 
