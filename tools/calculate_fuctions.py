@@ -1,3 +1,7 @@
+from typing import List, Union
+import datetime
+
+
 def DIJ_dv01(bd=int, rate=float, FV=100000, Spot=float):
     """
     Calculate the DV01 (Dollar Value of 01) for a DIJ future contract.
@@ -129,3 +133,37 @@ def covariance(x_list: list, y_list: list, sample: bool = True):
         return 0.0
         
     return round(total_sum / div, 2)
+
+def signalDIJ(x_list: list):
+    """
+    Calculate the trend signal for DIJ.
+    
+    Returns:
+    - signal: A list containing [date, 1d_signal, 1W_signal, 1Mo_signal]
+    """
+    
+    if not x_list:
+        return 0.0
+
+    dateref = datetime.datetime.now().strftime("%Y-%m-%d")
+  
+    last_value = x_list[-1]
+    signal: List[Union[str, int, None]] = [dateref]
+
+    parameters = [-2, -6, -21]  # 1 day, 1 week, and 1 month ago
+
+    for param in parameters:
+        
+        if len(x_list) < abs(param):
+            signal.append(None)
+        else:
+            previous_value = x_list[param]
+            
+            if last_value > previous_value:
+                signal.append(1)
+            elif last_value < previous_value:
+                signal.append(-1)
+            else:
+                signal.append(0)
+
+    return signal
