@@ -60,6 +60,7 @@ def format_date_columns(df):
     return df
 
 def transform_to_json(path=str(), end_path=str()):
+
     """
     Detects the file extension and converts the file to JSON format.
     Supports: .csv, .xlsx, .xls, .txt
@@ -99,3 +100,24 @@ def transform_to_json(path=str(), end_path=str()):
 
     except Exception as e:
         print(f"Error: {e}")
+
+def delete_dij_values():
+    file_path = r'database\DIJHist.json'
+    
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    value_to_remove = input("Enter the date to remove from the JSON file (YYYY-MM-DD): ")
+
+    initial_count = len(data)
+    filtered_data = [item for item in data if item.get("Date") != value_to_remove]
+    final_count = len(filtered_data)
+    removed_count = initial_count - final_count
+
+    if removed_count > 0:
+        with open(file_path, 'w', encoding='utf-8') as file:
+            json.dump(filtered_data, file, ensure_ascii=False, indent=4)
+        print(f"Process completed successfully! Records removed: {removed_count}")
+    else:
+        print("No records found for the specified date. The file was not modified.")
