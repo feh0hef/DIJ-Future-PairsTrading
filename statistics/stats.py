@@ -2,8 +2,9 @@
 from tools.calculate_fuctions import signalDIJ
 from database.ImportDIJ import save_request
 import pandas as pd
+import warnings
 
-data = pd.read_json(r'database\DIJHist.json')
+warnings.filterwarnings("ignore")
 
 def RunSignalDIJ(data):
 
@@ -13,7 +14,7 @@ def RunSignalDIJ(data):
         
         symbol_data = data[data['Symbol'] == symbol].sort_values(by='Date')
         
-        signal = signalDIJ(symbol_data['Last_Buy_Offer'].tolist())
+        signal = signalDIJ(symbol_data['Last_Mid'].tolist())
         
         if not isinstance(signal, list):
             continue

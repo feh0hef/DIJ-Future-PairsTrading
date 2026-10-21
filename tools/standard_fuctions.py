@@ -5,33 +5,55 @@ import numpy as np
 from pandas.tseries.offsets import BDay
 from datetime import datetime, date
 
-def bussiness_days_to_maturity(maturity_date, start_date=None, holidays_path=r'database\feriados_nacionais.json', _cached_holidays=[None]):
+def bussiness_days_to_maturity(
+    maturity_date,
+    start_date=None,
+    holidays_path=r'database\feriados_nacionais.json',
+    _cached_holidays=[None]
+):
     """
-    Calculate the number of business days to maturity, excluding weekends and holidays.
+    Calculate business days to maturity, excluding weekends and holidays.
+    Accept scalar dates or arrays of dates.
     """
     
     if _cached_holidays[0] is None:
         holidays_df = pd.read_json(holidays_path)
         date_col = 'Data' if 'Data' in holidays_df.columns else 'Date'
-        cleaned_dates = pd.to_datetime(holidays_df[date_col], errors='coerce').dropna()
-        _cached_holidays[0] = np.array(cleaned_dates.dt.date.values, dtype='datetime64[D]')
-    
+
+        cleaned_dates = pd.to_datetime(
+            holidays_df[date_col], errors='coerce'
+        ).dropna()
+
+        _cached_holidays[0] = cleaned_dates.to_numpy(
+            dtype='datetime64[D]'
+        )
+
     holidays = _cached_holidays[0]
 
-    
     if start_date is None:
-        start_date = pd.Timestamp.now().date()
-        
-    start = np.datetime64(pd.to_datetime(start_date).date())
-    maturity = np.datetime64(pd.to_datetime(maturity_date).date())
-    
-    
-    if maturity <= start:
-        return 0 
+        start_date = pd.Timestamp.now().normalize()
 
-    business_days = np.busday_count(start, maturity, weekmask='1111100', holidays=holidays)
-    
-    return int(business_days)
+    start = np.asarray(
+        pd.to_datetime(start_date), dtype='datetime64[D]'
+    )
+    maturity = np.asarray(
+        pd.to_datetime(maturity_date), dtype='datetime64[D]'
+    )
+
+    business_days = np.busday_count(
+        start,
+        maturity,
+        weekmask='1111100',
+        holidays=holidays
+    )
+
+    business_days = np.maximum(business_days, 0)
+
+    return (
+        int(business_days)
+        if business_days.ndim == 0
+        else business_days
+    )
 
 def json_date_serializer(obj):
     """ Force dates to save strictly as YYYY-MM-DD strings without time """

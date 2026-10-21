@@ -66,7 +66,7 @@ def mid_rate(sell_rate=float, buy_rate=float):
     - mid_rate: The calculated mid rate value.
     """
 
-    mid_rate = round((sell_rate + buy_rate) / 2, 2)
+    mid_rate = round((sell_rate + buy_rate) / 2, 4)
     
     return mid_rate
 
