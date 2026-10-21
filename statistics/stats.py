@@ -39,4 +39,3 @@ def RunSignalDIJ(data):
         print(f"Error saving JSON: {e}")
 
     return df_summed_signals
-
