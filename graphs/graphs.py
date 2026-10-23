@@ -126,3 +126,5 @@ if __name__ == '__main__':
     clusters, model = cluster_signal_correlation(matrix, k=3)
 
     plot_signal_clusters(clusters)
+
+    plot_dij_signals('DI1F27')
