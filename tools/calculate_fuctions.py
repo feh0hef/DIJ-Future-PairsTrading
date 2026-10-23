@@ -106,7 +106,7 @@ def deviation(RateOrSpreads: list):
 
     variance = sum((x - avg) ** 2 for x in RateOrSpreads) / len(RateOrSpreads)
 
-    std_dev = round(variance ** 0.5, 2)
+    std_dev = round(variance ** 0.5, 4)
     
     return std_dev
 
@@ -132,7 +132,7 @@ def covariance(x_list: list, y_list: list, sample: bool = True):
     if div <= 0:
         return 0.0
         
-    return round(total_sum / div, 2)
+    return round(total_sum / div, 4)
 
 def signalDIJ(x_list: list):
     """
