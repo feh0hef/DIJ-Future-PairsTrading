@@ -123,7 +123,7 @@ def plot_signal_clusters(
 
 if __name__ == '__main__':
     matrix = signal_correlation()
-    clusters, model = cluster_signal_correlation(matrix, k=3)
+    clusters, model = cluster_signal_correlation(matrix, k=4)
 
     plot_signal_clusters(clusters)
 
