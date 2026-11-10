@@ -5,7 +5,7 @@ import pandas as pd
 from tools.calculate_fuctions import signalDIJ
 
 
-SIGNALS_PATH = Path(__file__).resolve().parent / 'DIJSignals.json'
+SIGNALS_PATH = 'database/DIJSignals.json'
 KEY_COLUMNS = ['Date', 'Symbol']
 COLUMNS = ['Symbol', 'Date', 'Sum_Signals']
 

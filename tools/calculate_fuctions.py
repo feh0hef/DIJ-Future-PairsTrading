@@ -1,5 +1,6 @@
 from typing import List, Union
 import datetime
+import pandas as pd
 
 
 def DIJ_dv01(bd=int, rate=float, FV=100000, Spot=float):
@@ -22,21 +23,65 @@ def DIJ_dv01(bd=int, rate=float, FV=100000, Spot=float):
     
     return dv01
 
-def Spread_DIJ(Long_tenor=float, Short_tenor=float):
+def Spread_DIJ(data: pd.DataFrame, flattened_pairs: list, day_0, last_day) -> list:
     """
-    Calculate the spread between two DIJ future contracts.
-    
-    Parameters:
-    - Long_tenor: The price of the long DIJ contract.
-    - Short_tenor: The price of the short DIJ contract.
+    Calculate the spread between two DIJ future contracts for day_0 and last_day.
+    Automatically detects long and short tenors based on business days (bd).
     
     Returns:
-    - spread: The calculated spread value (in bps).
+    - results: A list of dicts with calculated spread values (in bps) and metadata.
     """
-
-    spread = round(Long_tenor - Short_tenor, 2)*100
+    results = []
     
-    return spread
+    for pair in flattened_pairs:
+        symbol_A = pair["symbol_A"]
+        symbol_B = pair["symbol_B"]
+        
+        
+        hist_A = data[data['Symbol'] == symbol_A]
+        hist_B = data[data['Symbol'] == symbol_B]
+        
+        
+        if hist_A.empty or hist_B.empty:
+            continue
+            
+        
+        bd_A = hist_A.iloc[-1]['bd']
+        bd_B = hist_B.iloc[-1]['bd']
+        
+        if bd_A > bd_B:
+            long_hist, short_hist = hist_A, hist_B
+            long_sym, short_sym = symbol_A, symbol_B
+        else:
+            long_hist, short_hist = hist_B, hist_A
+            long_sym, short_sym = symbol_B, symbol_A
+            
+        
+        p_long_0 = long_hist[long_hist['Date'] == day_0]['Avg_Price']
+        p_short_0 = short_hist[short_hist['Date'] == day_0]['Avg_Price']
+        
+        p_long_last = long_hist[long_hist['Date'] == last_day]['Avg_Price']
+        p_short_last = short_hist[short_hist['Date'] == last_day]['Avg_Price']
+        
+        
+        if not p_long_0.empty and not p_short_0.empty and not p_long_last.empty and not p_short_last.empty:
+            
+            
+            spread_0 = round(float(p_long_0.iloc[0]) - float(p_short_0.iloc[0]), 2) * 100
+            spread_last = round(float(p_long_last.iloc[0]) - float(p_short_last.iloc[0]), 2) * 100
+            
+            results.append({
+                "cluster_pair": pair["cluster_pair"],
+                "symbol_A": symbol_A,
+                "symbol_B": symbol_B,
+                "long_contract": long_sym,
+                "short_contract": short_sym,
+                "spread_day0_bps": spread_0,
+                "spread_last_day_bps": spread_last,
+                "spread_change_bps": round(spread_last - spread_0, 2)
+            })
+            
+    return results
 
 def dv01_volume(dv01=float, volume=float):
     """

@@ -7,7 +7,7 @@ import pandas as pd
 def importbases():
 
     try:
-        signals = pd.read_json(r'statistics\DIJSignals.json')
+        signals = pd.read_json(r'database\DIJSignals.json')
         dij_reduce = pd.read_json(r'database\DIJ_ETL.json')
 
     except Exception as e:
@@ -123,8 +123,8 @@ def plot_signal_clusters(
 
 if __name__ == '__main__':
     matrix = signal_correlation()
-    clusters, model = cluster_signal_correlation(matrix, k=4)
+    clusters, model = cluster_signal_correlation(matrix)
 
     plot_signal_clusters(clusters)
 
-    plot_dij_signals('DI1F27')
+    plot_dij_signals('DI1F32')

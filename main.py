@@ -1,7 +1,5 @@
 from pathlib import Path
-
 import pandas as pd
-
 from database.ImportDIJ import requestB3API
 from database.ETL import DIJ_Reduce
 from statistics.stats import RunSignalDIJ
