@@ -24,8 +24,17 @@ def find_negative_pairs_spreads():
     data['Date'] = pd.to_datetime(data['Date'])
 
     dates_sorted = sorted(data['Date'].unique())
-    day_0 = dates_sorted[0]
     last_day = dates_sorted[-1]
 
+    day_0_input = input("Enter the start date (YYYY-MM-DD): ").strip()
+    try:
+        day_0 = pd.to_datetime(day_0_input, format="%Y-%m-%d", errors="raise")
+    except ValueError as exc:
+        raise ValueError("The start date must use the YYYY-MM-DD format.") from exc
+
+    if day_0 not in data['Date'].values:
+        raise ValueError(f"No data available for the start date {day_0_input}.")
+
     spread_values = Spread_DIJ(data, flattened_pairs, day_0, last_day)
+    
     return spread_values

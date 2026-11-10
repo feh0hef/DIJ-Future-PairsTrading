@@ -4,12 +4,13 @@ import json
 import torch
 import pandas as pd
 
-from PairDIJ.findP import find_negative_pairs_spreads
+from pairDIJ.findP import find_negative_pairs_spreads
 
 def save_backtest_to_json(backtest_results: list, filename: str = "backtest_results.json"):
     """
     Saves the compiled backtest results inside the project's 'database' folder.
     """
+    
     db_folder = os.path.join(os.getcwd(), "database")
     os.makedirs(db_folder, exist_ok=True)
     

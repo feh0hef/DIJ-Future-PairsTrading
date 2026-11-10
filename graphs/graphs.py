@@ -1,23 +1,27 @@
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+from matplotlib.ticker import FuncFormatter
+from matplotlib.patches import Patch
 from sklearn.decomposition import PCA
 from statistics.cov import signal_correlation, cluster_signal_correlation
 import pandas as pd
+import numpy as np
 
 def importbases():
 
     try:
         signals = pd.read_json(r'database\DIJSignals.json')
         dij_reduce = pd.read_json(r'database\DIJ_ETL.json')
+        backtest = pd.read_json(r'database\backtest_results.json')
 
     except Exception as e:
         print(f'Error loading databases: {e}')
         raise
 
-    return signals, dij_reduce
+    return signals, dij_reduce, backtest
 
 def plot_dij_signals(symbol: str):
-    signals, _ = importbases()
+    signals, _, _ = importbases()
 
     symbol = symbol.strip().upper()
     filtered = signals.loc[signals['Symbol'] == symbol].copy()
@@ -121,10 +125,61 @@ def plot_signal_clusters(
 
     return fig, ax
 
+def plot_backtest():
+    _, _, backtest = importbases()
+
+    if backtest.empty:
+        print('No backtest data available to plot.')
+        return
+
+    backtest = backtest.copy()
+    backtest['pair'] = (
+        backtest['long_contract'].astype(str)
+        + ' x '
+        + backtest['short_contract'].astype(str)
+    )
+
+    results = (
+        backtest.groupby(['pair', 'strategy'], as_index=False)['pnl']
+        .sum()
+    )
+    top_10 = results.nlargest(10, 'pnl').copy()
+
+    colors = {'Long': 'steelblue', 'Short': 'darkorange'}
+    bar_colors = top_10['strategy'].map(colors)
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+    ax.bar(top_10['pair'], top_10['pnl'], color=bar_colors)
+
+    ax.set_title('Top 10 Backtest Results')
+    ax.set_xlabel('Spread Pair')
+    ax.set_ylabel('PnL (USD)')
+    ax.yaxis.set_major_formatter(
+        FuncFormatter(lambda value, _: f'${value / 1000 :,.0f}'.replace(',', ','))
+    )
+
+    
+    min_pnl = min(0, top_10['pnl'].min())
+    max_pnl = max(0, top_10['pnl'].max())
+    margin = (max_pnl - min_pnl) * 0.08 or 1
+    ax.set_ylim(min_pnl - margin, max_pnl + margin)
+
+    ax.grid(axis='y', alpha=0.3)
+    ax.tick_params(axis='x', rotation=45)
+
+    legend_handles = [
+        Patch(color=color, label=strategy)
+        for strategy, color in colors.items()
+        if strategy in top_10['strategy'].values
+    ]
+    ax.legend(handles=legend_handles, title='Strategy')
+
+    fig.tight_layout()
+    fig.savefig('DIJ_backtest_pnl.png', dpi=300, bbox_inches='tight')
+    plt.show()
+
+    return fig, ax
+
 if __name__ == '__main__':
-    matrix = signal_correlation()
-    clusters, model = cluster_signal_correlation(matrix)
 
-    plot_signal_clusters(clusters)
-
-    plot_dij_signals('DI1F32')
+    plot_backtest()

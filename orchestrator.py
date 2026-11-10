@@ -23,7 +23,7 @@ def main() -> int:
             )
             return result.returncode
 
-    print("\nPipeline completed successfully.")
+    print("\n[SUCCESS] Pipeline completed successfully.")
     return 0
 
 
