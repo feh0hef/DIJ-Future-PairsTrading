@@ -1,1662 +1,1402 @@
 {
     "0-1": [
         {
-            "symbol_A": "DI1F31",
+            "symbol_A": "DI1F28",
             "symbol_B": "DI1F36",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1N30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1F36",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1N30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1F36",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1N30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1F36",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1N30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1F36",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1N30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1F34",
             "covariance": -0.0006000000284984708
         },
         {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1F36",
-            "covariance": -0.004999999888241291
+            "symbol_A": "DI1F28",
+            "symbol_B": "DI1F38",
+            "covariance": -0.00139999995008111
         },
         {
-            "symbol_A": "DI1J31",
+            "symbol_A": "DI1F28",
+            "symbol_B": "DI1N31",
+            "covariance": -0.0024999999441206455
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1F38",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1N30",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1N31",
+            "covariance": -9.999999747378752e-05
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1F36",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1F38",
+            "covariance": -0.000699999975040555
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1N31",
+            "covariance": -0.003800000064074993
+        },
+        {
+            "symbol_A": "DI1F31",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F31",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F31",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1F32",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F32",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F32",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1F33",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F33",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F33",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1F35",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F35",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F35",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1F37",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F37",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F37",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0027000000700354576
+        },
+        {
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1N30",
+            "covariance": -0.0038999998942017555
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1F36",
+            "covariance": -0.005400000140070915
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1N29",
+            "covariance": -0.002199999988079071
+        },
+        {
+            "symbol_A": "DI1J30",
             "symbol_B": "DI1N30",
             "covariance": -0.0034000000450760126
         },
         {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1F34",
+            "covariance": -0.0019000000320374966
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0031999999191612005
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0005000000237487257
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1N30",
+            "covariance": -0.0024999999441206455
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1F36",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1F38",
+            "covariance": -0.000699999975040555
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1N31",
+            "covariance": -0.003800000064074993
+        },
+        {
             "symbol_A": "DI1V31",
             "symbol_B": "DI1F34",
-            "covariance": -0.002899999963119626
+            "covariance": -0.00419999985024333
         },
         {
             "symbol_A": "DI1V31",
             "symbol_B": "DI1F38",
-            "covariance": -0.0017000000225380063
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1N29",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0026000000070780516
-        }
-    ],
-    "0-2": [
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1F40",
-            "covariance": -0.0013000000035390258
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1F40",
-            "covariance": -0.002199999988079071
-        }
-    ],
-    "0-3": [
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1J28",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1J29",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1J28",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1J29",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1J28",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1J29",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1J28",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1J29",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1J28",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1J29",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1N28",
-            "covariance": -0.004900000058114529
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1J29",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1N28",
-            "covariance": -0.0019000000320374966
-        },
-        {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1V28",
             "covariance": -0.002099999925121665
         },
         {
             "symbol_A": "DI1V31",
-            "symbol_B": "DI1V29",
-            "covariance": -0.004999999888241291
+            "symbol_B": "DI1N29",
+            "covariance": -0.003100000089034438
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1N31",
+            "covariance": -0.0024999999441206455
+        }
+    ],
+    "0-2": [
+        {
+            "symbol_A": "DI1F28",
+            "symbol_B": "DI1V30",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1V30",
+            "covariance": -0.003000000026077032
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1V30",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1F31",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1F32",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1F33",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1F35",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1F37",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1V27",
+            "covariance": -0.0017000000225380063
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1V27",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1V30",
+            "covariance": -0.0010999999940395355
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1N28",
+            "covariance": -0.002199999988079071
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1V30",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1V27",
+            "covariance": -0.0026000000070780516
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1V30",
+            "covariance": -9.999999747378752e-05
+        }
+    ],
+    "0-3": [
+        {
+            "symbol_A": "DI1F28",
+            "symbol_B": "DI1F41",
+            "covariance": -0.003599999938160181
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0015999999595806003
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1F41",
+            "covariance": -0.004699999932199717
+        },
+        {
+            "symbol_A": "DI1F31",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1F32",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1F33",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1F35",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1F37",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1F39",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1F40",
+            "covariance": -0.003700000001117587
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0034000000450760126
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1F39",
+            "covariance": -0.002199999988079071
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0005000000237487257
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1F41",
+            "covariance": -0.004699999932199717
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1F39",
+            "covariance": -0.003100000089034438
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0013000000035390258
         }
     ],
     "0-5": [
         {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0003000000142492354
+            "symbol_A": "DI1F28",
+            "symbol_B": "DI1J28",
+            "covariance": -0.004800000227987766
+        },
+        {
+            "symbol_A": "DI1F29",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0038999998942017555
+        },
+        {
+            "symbol_A": "DI1F30",
+            "symbol_B": "DI1J28",
+            "covariance": -0.00419999985024333
         },
         {
             "symbol_A": "DI1F31",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F31",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0012000000569969416
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         },
         {
             "symbol_A": "DI1F32",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0003000000142492354
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F32",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0012000000569969416
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         },
         {
             "symbol_A": "DI1F33",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0003000000142492354
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F33",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0012000000569969416
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         },
         {
             "symbol_A": "DI1F35",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0003000000142492354
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1F35",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0012000000569969416
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         },
         {
             "symbol_A": "DI1F37",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0003000000142492354
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         },
         {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0008999999845400453
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0019000000320374966
         },
         {
-            "symbol_A": "DI1F37",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0012000000569969416
+            "symbol_A": "DI1J27",
+            "symbol_B": "DI1V29",
+            "covariance": -0.000699999975040555
         },
         {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0007999999797903001
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1V27",
-            "covariance": -0.0013000000035390258
-        },
-        {
-            "symbol_A": "DI1J31",
-            "symbol_B": "DI1V30",
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1J28",
             "covariance": -0.0015999999595806003
         },
         {
-            "symbol_A": "DI1V31",
-            "symbol_B": "DI1V27",
-            "covariance": -0.003700000001117587
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1V28",
+            "covariance": -0.0019000000320374966
+        },
+        {
+            "symbol_A": "DI1J30",
+            "symbol_B": "DI1V29",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1J29",
+            "covariance": -0.0012000000569969416
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1V28",
+            "covariance": -9.999999747378752e-05
+        },
+        {
+            "symbol_A": "DI1J31",
+            "symbol_B": "DI1V29",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1N27",
+            "symbol_B": "DI1J28",
+            "covariance": -0.00419999985024333
         },
         {
             "symbol_A": "DI1V31",
-            "symbol_B": "DI1V30",
-            "covariance": -0.0034000000450760126
+            "symbol_B": "DI1J29",
+            "covariance": -0.00279999990016222
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1V28",
+            "covariance": -0.002899999963119626
+        },
+        {
+            "symbol_A": "DI1V31",
+            "symbol_B": "DI1V29",
+            "covariance": -0.006300000008195639
         }
     ],
     "1-0": [
         {
             "symbol_A": "DI1F34",
+            "symbol_B": "DI1F31",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F34",
+            "symbol_B": "DI1F32",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F34",
+            "symbol_B": "DI1F33",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F34",
+            "symbol_B": "DI1F35",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F34",
+            "symbol_B": "DI1F37",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F34",
             "symbol_B": "DI1J31",
-            "covariance": -0.0006000000284984708
+            "covariance": -0.0019000000320374966
         },
         {
             "symbol_A": "DI1F34",
             "symbol_B": "DI1V31",
-            "covariance": -0.002899999963119626
+            "covariance": -0.00419999985024333
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1F31",
+            "symbol_B": "DI1F28",
+            "covariance": -0.0006000000284984708
+        },
+        {
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1F29",
+            "covariance": -0.0010000000474974513
+        },
+        {
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1F30",
             "covariance": -0.00019999999494757503
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1F32",
-            "covariance": -0.00019999999494757503
+            "symbol_B": "DI1J27",
+            "covariance": -0.0027000000700354576
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1F33",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1F35",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1F37",
-            "covariance": -0.00019999999494757503
+            "symbol_B": "DI1J30",
+            "covariance": -0.005400000140070915
         },
         {
             "symbol_A": "DI1F36",
             "symbol_B": "DI1J31",
-            "covariance": -0.004999999888241291
+            "covariance": -0.0031999999191612005
+        },
+        {
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1N27",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1F28",
+            "covariance": -0.00139999995008111
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1F29",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1F30",
+            "covariance": -0.000699999975040555
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1F31",
-            "covariance": -0.0005000000237487257
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1F32",
-            "covariance": -0.0005000000237487257
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1F33",
-            "covariance": -0.0005000000237487257
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1F35",
-            "covariance": -0.0005000000237487257
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1F37",
-            "covariance": -0.0005000000237487257
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1N27",
+            "covariance": -0.000699999975040555
         },
         {
             "symbol_A": "DI1F38",
             "symbol_B": "DI1V31",
-            "covariance": -0.0017000000225380063
+            "covariance": -0.002099999925121665
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1F31",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1F32",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1F33",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1F35",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1F37",
+            "covariance": -0.0003000000142492354
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1J30",
+            "covariance": -0.002199999988079071
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1J31",
+            "covariance": -0.0005000000237487257
         },
         {
             "symbol_A": "DI1N29",
             "symbol_B": "DI1V31",
-            "covariance": -0.002400000113993883
+            "covariance": -0.003100000089034438
         },
         {
             "symbol_A": "DI1N30",
-            "symbol_B": "DI1F31",
-            "covariance": -9.999999747378752e-05
+            "symbol_B": "DI1F29",
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1N30",
-            "symbol_B": "DI1F32",
-            "covariance": -9.999999747378752e-05
+            "symbol_B": "DI1J27",
+            "covariance": -0.0038999998942017555
         },
         {
             "symbol_A": "DI1N30",
-            "symbol_B": "DI1F33",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1F35",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1F37",
-            "covariance": -9.999999747378752e-05
+            "symbol_B": "DI1J30",
+            "covariance": -0.0034000000450760126
         },
         {
             "symbol_A": "DI1N30",
             "symbol_B": "DI1J31",
-            "covariance": -0.0034000000450760126
+            "covariance": -0.0024999999441206455
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F31",
-            "covariance": -0.0005000000237487257
+            "symbol_B": "DI1F28",
+            "covariance": -0.0024999999441206455
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F32",
-            "covariance": -0.0005000000237487257
+            "symbol_B": "DI1F29",
+            "covariance": -9.999999747378752e-05
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F33",
-            "covariance": -0.0005000000237487257
+            "symbol_B": "DI1F30",
+            "covariance": -0.003800000064074993
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F35",
-            "covariance": -0.0005000000237487257
-        },
-        {
-            "symbol_A": "DI1N31",
-            "symbol_B": "DI1F37",
-            "covariance": -0.0005000000237487257
+            "symbol_B": "DI1N27",
+            "covariance": -0.003800000064074993
         },
         {
             "symbol_A": "DI1N31",
             "symbol_B": "DI1V31",
-            "covariance": -0.0026000000070780516
+            "covariance": -0.0024999999441206455
         }
     ],
     "1-2": [
         {
             "symbol_A": "DI1F34",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1F41",
+            "symbol_B": "DI1N28",
             "covariance": -0.0003000000142492354
         },
         {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1F40",
-            "covariance": -0.00039999998989515007
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0007999999797903001
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1F41",
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1V27",
             "covariance": -0.0019000000320374966
         },
         {
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1V30",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0035000001080334187
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0020000000949949026
+        },
+        {
             "symbol_A": "DI1N30",
-            "symbol_B": "DI1F41",
-            "covariance": -0.003800000064074993
+            "symbol_B": "DI1V30",
+            "covariance": -0.0010999999940395355
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0052999998442828655
+            "symbol_B": "DI1V27",
+            "covariance": -0.0008999999845400453
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F40",
-            "covariance": -0.00430000014603138
+            "symbol_B": "DI1V30",
+            "covariance": -0.00039999998989515007
         }
     ],
     "1-3": [
         {
             "symbol_A": "DI1F34",
-            "symbol_B": "DI1J28",
-            "covariance": -0.007499999832361937
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1V28",
-            "covariance": -0.00019999999494757503
+            "symbol_B": "DI1F41",
+            "covariance": -0.002899999963119626
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1J29",
-            "covariance": -0.004100000020116568
+            "symbol_B": "DI1F39",
+            "covariance": -9.999999747378752e-05
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1V28",
-            "covariance": -0.004100000020116568
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1V29",
-            "covariance": -0.004000000189989805
+            "symbol_B": "DI1F41",
+            "covariance": -0.0007999999797903001
         },
         {
             "symbol_A": "DI1F38",
-            "symbol_B": "DI1J28",
-            "covariance": -0.0019000000320374966
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1N28",
-            "covariance": -0.002199999988079071
+            "symbol_B": "DI1F40",
+            "covariance": -0.0010999999940395355
         },
         {
             "symbol_A": "DI1N29",
-            "symbol_B": "DI1J28",
-            "covariance": -0.007699999958276749
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1J29",
-            "covariance": -0.000699999975040555
+            "symbol_B": "DI1F41",
+            "covariance": -0.0020000000949949026
         },
         {
             "symbol_A": "DI1N30",
-            "symbol_B": "DI1J29",
-            "covariance": -0.004600000102072954
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1V28",
-            "covariance": -0.00419999985024333
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1V29",
-            "covariance": -0.002199999988079071
+            "symbol_B": "DI1F41",
+            "covariance": -0.004100000020116568
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1N28",
-            "covariance": -0.011300000362098217
+            "symbol_B": "DI1F39",
+            "covariance": -0.004999999888241291
+        },
+        {
+            "symbol_A": "DI1N31",
+            "symbol_B": "DI1F40",
+            "covariance": -0.003800000064074993
         }
     ],
     "1-5": [
         {
             "symbol_A": "DI1F34",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0015999999595806003
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1J27",
-            "covariance": -0.003700000001117587
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1J30",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1F34",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0010000000474974513
+            "symbol_B": "DI1J28",
+            "covariance": -0.005900000222027302
         },
         {
             "symbol_A": "DI1F36",
-            "symbol_B": "DI1J30",
-            "covariance": -0.003100000089034438
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1V27",
-            "covariance": -0.004000000189989805
-        },
-        {
-            "symbol_A": "DI1F36",
-            "symbol_B": "DI1V30",
+            "symbol_B": "DI1J29",
             "covariance": -0.0032999999821186066
         },
         {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1F28",
-            "covariance": -0.001500000013038516
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0015999999595806003
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1J27",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F38",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1J27",
-            "covariance": -0.00139999995008111
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1J30",
-            "covariance": -0.00419999985024333
-        },
-        {
-            "symbol_A": "DI1N29",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1J30",
-            "covariance": -0.002099999925121665
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1V27",
-            "covariance": -0.00430000014603138
-        },
-        {
-            "symbol_A": "DI1N30",
-            "symbol_B": "DI1V30",
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1V28",
             "covariance": -0.0034000000450760126
         },
         {
-            "symbol_A": "DI1N31",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0010000000474974513
+            "symbol_A": "DI1F36",
+            "symbol_B": "DI1V29",
+            "covariance": -0.0035000001080334187
+        },
+        {
+            "symbol_A": "DI1F38",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0034000000450760126
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1J28",
+            "covariance": -0.007000000216066837
+        },
+        {
+            "symbol_A": "DI1N29",
+            "symbol_B": "DI1J29",
+            "covariance": -0.00039999998989515007
+        },
+        {
+            "symbol_A": "DI1N30",
+            "symbol_B": "DI1J29",
+            "covariance": -0.003599999938160181
+        },
+        {
+            "symbol_A": "DI1N30",
+            "symbol_B": "DI1V28",
+            "covariance": -0.0034000000450760126
+        },
+        {
+            "symbol_A": "DI1N30",
+            "symbol_B": "DI1V29",
+            "covariance": -0.0017000000225380063
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1F30",
-            "covariance": -0.002400000113993883
+            "symbol_B": "DI1J28",
+            "covariance": -0.0026000000070780516
         },
         {
             "symbol_A": "DI1N31",
-            "symbol_B": "DI1N27",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1N31",
-            "symbol_B": "DI1V27",
-            "covariance": -0.0010999999940395355
-        },
-        {
-            "symbol_A": "DI1N31",
-            "symbol_B": "DI1V30",
-            "covariance": -0.0027000000700354576
+            "symbol_B": "DI1V29",
+            "covariance": -0.0020000000949949026
         }
     ],
     "2-0": [
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1V31",
-            "covariance": -0.0012000000569969416
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1F30",
+            "covariance": -0.0008999999845400453
         },
         {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1J31",
-            "covariance": -0.0013000000035390258
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1V31",
-            "covariance": -0.002199999988079071
-        },
-        {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F31",
             "covariance": -0.0008999999845400453
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F32",
             "covariance": -0.0008999999845400453
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F33",
             "covariance": -0.0008999999845400453
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F35",
             "covariance": -0.0008999999845400453
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F37",
             "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1J31",
+            "covariance": -0.002199999988079071
+        },
+        {
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1N27",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1J27",
+            "covariance": -0.0017000000225380063
+        },
+        {
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1J30",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1V31",
+            "covariance": -0.0026000000070780516
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1F28",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1F29",
+            "covariance": -0.003000000026077032
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1F30",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1J30",
+            "covariance": -0.0010999999940395355
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1N27",
+            "covariance": -0.00019999999494757503
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1V31",
+            "covariance": -9.999999747378752e-05
         }
     ],
     "2-1": [
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1F36",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0052999998442828655
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1F38",
-            "covariance": -0.00039999998989515007
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1N31",
-            "covariance": -0.00430000014603138
-        },
-        {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F34",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1F36",
             "covariance": -0.0003000000142492354
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1F38",
-            "covariance": -0.0007999999797903001
+            "covariance": -0.0035000001080334187
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1N28",
             "symbol_B": "DI1N29",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1F36",
             "covariance": -0.0019000000320374966
         },
         {
-            "symbol_A": "DI1F41",
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1N31",
+            "covariance": -0.0008999999845400453
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0017999999690800905
+        },
+        {
+            "symbol_A": "DI1V30",
             "symbol_B": "DI1N30",
-            "covariance": -0.003800000064074993
+            "covariance": -0.0010999999940395355
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1N31",
+            "covariance": -0.00039999998989515007
         }
     ],
     "2-3": [
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1J28",
-            "covariance": -0.0038999998942017555
-        },
-        {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1J29",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1V28",
-            "covariance": -0.0010999999940395355
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1J28",
-            "covariance": -0.0024999999441206455
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1J29",
-            "covariance": -0.004000000189989805
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1V28",
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1F39",
             "covariance": -0.0013000000035390258
         },
         {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1N28",
-            "covariance": -0.009600000455975533
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1F40",
+            "covariance": -0.00419999985024333
         },
         {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1V29",
-            "covariance": -0.0038999998942017555
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1F41",
+            "covariance": -0.004000000189989805
+        },
+        {
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1F41",
+            "covariance": -0.0015999999595806003
         }
     ],
     "2-5": [
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0007999999797903001
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1V28",
+            "covariance": -0.0013000000035390258
         },
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1F29",
-            "covariance": -0.002300000051036477
+            "symbol_A": "DI1N28",
+            "symbol_B": "DI1V29",
+            "covariance": -0.005100000184029341
         },
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1F30",
-            "covariance": -0.00019999999494757503
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1J28",
+            "covariance": -0.002199999988079071
         },
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1J27",
-            "covariance": -0.002400000113993883
+            "symbol_A": "DI1V27",
+            "symbol_B": "DI1J29",
+            "covariance": -0.002099999925121665
         },
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0006000000284984708
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0005000000237487257
         },
         {
-            "symbol_A": "DI1F39",
-            "symbol_B": "DI1N27",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1J27",
-            "covariance": -0.00039999998989515007
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1J30",
-            "covariance": -0.003000000026077032
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1V27",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1F40",
-            "symbol_B": "DI1V30",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0017999999690800905
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0017999999690800905
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1V27",
-            "covariance": -0.0020000000949949026
-        },
-        {
-            "symbol_A": "DI1F41",
-            "symbol_B": "DI1V30",
-            "covariance": -0.003599999938160181
+            "symbol_A": "DI1V30",
+            "symbol_B": "DI1J29",
+            "covariance": -0.001500000013038516
         }
     ],
     "3-0": [
         {
-            "symbol_A": "DI1J28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F31",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0017999999690800905
         },
         {
-            "symbol_A": "DI1J28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F32",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0017999999690800905
         },
         {
-            "symbol_A": "DI1J28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F33",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0017999999690800905
         },
         {
-            "symbol_A": "DI1J28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F35",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0017999999690800905
         },
         {
-            "symbol_A": "DI1J28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F37",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0017999999690800905
         },
         {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F31",
-            "covariance": -9.999999747378752e-05
+            "symbol_A": "DI1F39",
+            "symbol_B": "DI1J27",
+            "covariance": -0.00019999999494757503
         },
         {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F32",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F33",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F35",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F37",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1V31",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1N28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1J31",
-            "covariance": -0.004900000058114529
+            "covariance": -0.002199999988079071
         },
         {
-            "symbol_A": "DI1N28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1V31",
-            "covariance": -0.0019000000320374966
+            "covariance": -0.003100000089034438
         },
         {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1V31",
-            "covariance": -0.002099999925121665
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1F29",
+            "covariance": -0.0015999999595806003
         },
         {
-            "symbol_A": "DI1V29",
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1J27",
+            "covariance": -0.003700000001117587
+        },
+        {
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1J30",
+            "covariance": -0.0034000000450760126
+        },
+        {
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1J31",
+            "covariance": -0.0005000000237487257
+        },
+        {
+            "symbol_A": "DI1F40",
             "symbol_B": "DI1V31",
-            "covariance": -0.004999999888241291
+            "covariance": -0.0013000000035390258
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1F28",
+            "covariance": -0.003599999938160181
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1F30",
+            "covariance": -0.004699999932199717
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1N27",
+            "covariance": -0.004699999932199717
         }
     ],
     "3-1": [
         {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1F34",
-            "covariance": -0.007499999832361937
-        },
-        {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0019000000320374966
-        },
-        {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1N29",
-            "covariance": -0.007699999958276749
-        },
-        {
-            "symbol_A": "DI1J29",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1F36",
-            "covariance": -0.004100000020116568
+            "covariance": -9.999999747378752e-05
         },
         {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1N29",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1N30",
-            "covariance": -0.004600000102072954
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1F38",
-            "covariance": -0.002199999988079071
-        },
-        {
-            "symbol_A": "DI1N28",
+            "symbol_A": "DI1F39",
             "symbol_B": "DI1N31",
-            "covariance": -0.011300000362098217
+            "covariance": -0.004999999888241291
         },
         {
-            "symbol_A": "DI1V28",
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1F38",
+            "covariance": -0.0010999999940395355
+        },
+        {
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1N31",
+            "covariance": -0.003800000064074993
+        },
+        {
+            "symbol_A": "DI1F41",
             "symbol_B": "DI1F34",
-            "covariance": -0.00019999999494757503
+            "covariance": -0.002899999963119626
         },
         {
-            "symbol_A": "DI1V28",
+            "symbol_A": "DI1F41",
             "symbol_B": "DI1F36",
+            "covariance": -0.0007999999797903001
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1N29",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1N30",
             "covariance": -0.004100000020116568
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1N30",
-            "covariance": -0.00419999985024333
-        },
-        {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1F36",
-            "covariance": -0.004000000189989805
-        },
-        {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1N30",
-            "covariance": -0.002199999988079071
         }
     ],
     "3-2": [
         {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0038999998942017555
-        },
-        {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1F40",
-            "covariance": -0.0024999999441206455
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F39",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F40",
-            "covariance": -0.004000000189989805
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1F41",
-            "covariance": -0.009600000455975533
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0010999999940395355
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1F40",
+            "symbol_A": "DI1F39",
+            "symbol_B": "DI1N28",
             "covariance": -0.0013000000035390258
         },
         {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0038999998942017555
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1N28",
+            "covariance": -0.00419999985024333
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1V27",
+            "covariance": -0.004000000189989805
+        },
+        {
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1V30",
+            "covariance": -0.0015999999595806003
         }
     ],
     "3-5": [
         {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1V27",
-            "covariance": -0.01269999984651804
+            "symbol_A": "DI1F39",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0026000000070780516
         },
         {
-            "symbol_A": "DI1J28",
-            "symbol_B": "DI1V30",
-            "covariance": -0.012299999594688416
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1J28",
+            "covariance": -0.0010999999940395355
         },
         {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F28",
-            "covariance": -0.002199999988079071
+            "symbol_A": "DI1F40",
+            "symbol_B": "DI1J29",
+            "covariance": -0.0024999999441206455
         },
         {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F29",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1J27",
-            "covariance": -0.002199999988079071
-        },
-        {
-            "symbol_A": "DI1J29",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1F28",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1F29",
-            "covariance": -0.0044999998062849045
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1J27",
+            "symbol_A": "DI1F41",
+            "symbol_B": "DI1V29",
             "covariance": -0.00570000009611249
-        },
-        {
-            "symbol_A": "DI1N28",
-            "symbol_B": "DI1J30",
-            "covariance": -0.005499999970197678
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1F30",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0015999999595806003
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1N27",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1V28",
-            "symbol_B": "DI1V30",
-            "covariance": -0.0007999999797903001
-        },
-        {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1F29",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1J27",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1V29",
-            "symbol_B": "DI1J30",
-            "covariance": -0.0031999999191612005
         }
     ],
     "5-0": [
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1J31",
-            "covariance": -0.0007999999797903001
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1F28",
+            "covariance": -0.004800000227987766
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F31",
-            "covariance": -0.0003000000142492354
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1F29",
+            "covariance": -0.0038999998942017555
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F32",
-            "covariance": -0.0003000000142492354
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1F30",
+            "covariance": -0.00419999985024333
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F33",
-            "covariance": -0.0003000000142492354
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1J27",
+            "covariance": -0.0019000000320374966
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F35",
-            "covariance": -0.0003000000142492354
-        },
-        {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F37",
-            "covariance": -0.0003000000142492354
-        },
-        {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1J31",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F31",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F32",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F33",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F35",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F37",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F31",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F32",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F33",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F35",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F37",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1J31",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1J31",
-            "covariance": -0.0013000000035390258
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1V31",
-            "covariance": -0.003700000001117587
-        },
-        {
-            "symbol_A": "DI1V30",
-            "symbol_B": "DI1J31",
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1J30",
             "covariance": -0.0015999999595806003
         },
         {
-            "symbol_A": "DI1V30",
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1N27",
+            "covariance": -0.00419999985024333
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F31",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F32",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F33",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F35",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F37",
+            "covariance": -0.001500000013038516
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1J31",
+            "covariance": -0.0012000000569969416
+        },
+        {
+            "symbol_A": "DI1J29",
             "symbol_B": "DI1V31",
-            "covariance": -0.0034000000450760126
+            "covariance": -0.00279999990016222
+        },
+        {
+            "symbol_A": "DI1V28",
+            "symbol_B": "DI1J30",
+            "covariance": -0.0019000000320374966
+        },
+        {
+            "symbol_A": "DI1V28",
+            "symbol_B": "DI1J31",
+            "covariance": -9.999999747378752e-05
+        },
+        {
+            "symbol_A": "DI1V28",
+            "symbol_B": "DI1V31",
+            "covariance": -0.002899999963119626
+        },
+        {
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1J27",
+            "covariance": -0.000699999975040555
+        },
+        {
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1J30",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1J31",
+            "covariance": -0.0020000000949949026
+        },
+        {
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1V31",
+            "covariance": -0.006300000008195639
         }
     ],
     "5-1": [
         {
-            "symbol_A": "DI1F28",
+            "symbol_A": "DI1J28",
             "symbol_B": "DI1F34",
-            "covariance": -0.0015999999595806003
+            "covariance": -0.005900000222027302
         },
         {
-            "symbol_A": "DI1F28",
+            "symbol_A": "DI1J28",
             "symbol_B": "DI1F38",
-            "covariance": -0.001500000013038516
+            "covariance": -0.0034000000450760126
         },
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F34",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0015999999595806003
-        },
-        {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1F34",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1F30",
+            "symbol_A": "DI1J28",
             "symbol_B": "DI1N29",
-            "covariance": -0.0006000000284984708
+            "covariance": -0.007000000216066837
         },
         {
-            "symbol_A": "DI1F30",
+            "symbol_A": "DI1J28",
             "symbol_B": "DI1N31",
-            "covariance": -0.002400000113993883
+            "covariance": -0.0026000000070780516
         },
         {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F34",
-            "covariance": -0.003700000001117587
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F38",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1N29",
-            "covariance": -0.00139999995008111
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F34",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F36",
-            "covariance": -0.003100000089034438
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1N29",
-            "covariance": -0.00419999985024333
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1N30",
-            "covariance": -0.002099999925121665
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1F34",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1F38",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1N29",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1N31",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1F36",
-            "covariance": -0.004000000189989805
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1N30",
-            "covariance": -0.00430000014603138
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1N31",
-            "covariance": -0.0010999999940395355
-        },
-        {
-            "symbol_A": "DI1V30",
+            "symbol_A": "DI1J29",
             "symbol_B": "DI1F36",
             "covariance": -0.0032999999821186066
         },
         {
-            "symbol_A": "DI1V30",
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1N29",
+            "covariance": -0.00039999998989515007
+        },
+        {
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1N30",
+            "covariance": -0.003599999938160181
+        },
+        {
+            "symbol_A": "DI1V28",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0034000000450760126
+        },
+        {
+            "symbol_A": "DI1V28",
             "symbol_B": "DI1N30",
             "covariance": -0.0034000000450760126
         },
         {
-            "symbol_A": "DI1V30",
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1F36",
+            "covariance": -0.0035000001080334187
+        },
+        {
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1N30",
+            "covariance": -0.0017000000225380063
+        },
+        {
+            "symbol_A": "DI1V29",
             "symbol_B": "DI1N31",
-            "covariance": -0.0027000000700354576
+            "covariance": -0.0020000000949949026
         }
     ],
     "5-2": [
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0007999999797903001
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1V27",
+            "covariance": -0.002199999988079071
         },
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0006000000284984708
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1V30",
+            "covariance": -0.0005000000237487257
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F39",
-            "covariance": -0.002300000051036477
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1V27",
+            "covariance": -0.002099999925121665
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1F40",
-            "covariance": -0.0010000000474974513
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1V30",
+            "covariance": -0.001500000013038516
         },
         {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1F39",
-            "covariance": -0.00019999999494757503
+            "symbol_A": "DI1V28",
+            "symbol_B": "DI1N28",
+            "covariance": -0.0013000000035390258
         },
         {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0017999999690800905
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F39",
-            "covariance": -0.002400000113993883
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1F40",
-            "covariance": -0.00039999998989515007
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F39",
-            "covariance": -0.0006000000284984708
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1F40",
-            "covariance": -0.003000000026077032
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1F39",
-            "covariance": -0.00019999999494757503
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0017999999690800905
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1F40",
-            "covariance": -0.0010000000474974513
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1F41",
-            "covariance": -0.0020000000949949026
-        },
-        {
-            "symbol_A": "DI1V30",
-            "symbol_B": "DI1F40",
-            "covariance": -9.999999747378752e-05
-        },
-        {
-            "symbol_A": "DI1V30",
-            "symbol_B": "DI1F41",
-            "covariance": -0.003599999938160181
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1N28",
+            "covariance": -0.005100000184029341
         }
     ],
     "5-3": [
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1J29",
-            "covariance": -0.002199999988079071
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1F39",
+            "covariance": -0.0026000000070780516
         },
         {
-            "symbol_A": "DI1F28",
-            "symbol_B": "DI1N28",
-            "covariance": -0.0008999999845400453
+            "symbol_A": "DI1J28",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0010999999940395355
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1J29",
-            "covariance": -0.000699999975040555
+            "symbol_A": "DI1J29",
+            "symbol_B": "DI1F40",
+            "covariance": -0.0024999999441206455
         },
         {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1N28",
-            "covariance": -0.0044999998062849045
-        },
-        {
-            "symbol_A": "DI1F29",
-            "symbol_B": "DI1V29",
-            "covariance": -0.000699999975040555
-        },
-        {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1J29",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1F30",
-            "symbol_B": "DI1V28",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1J29",
-            "covariance": -0.002199999988079071
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1N28",
+            "symbol_A": "DI1V29",
+            "symbol_B": "DI1F41",
             "covariance": -0.00570000009611249
-        },
-        {
-            "symbol_A": "DI1J27",
-            "symbol_B": "DI1V29",
-            "covariance": -0.0012000000569969416
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1N28",
-            "covariance": -0.005499999970197678
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1V28",
-            "covariance": -0.0015999999595806003
-        },
-        {
-            "symbol_A": "DI1J30",
-            "symbol_B": "DI1V29",
-            "covariance": -0.0031999999191612005
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1J29",
-            "covariance": -0.0027000000700354576
-        },
-        {
-            "symbol_A": "DI1N27",
-            "symbol_B": "DI1V28",
-            "covariance": -0.0008999999845400453
-        },
-        {
-            "symbol_A": "DI1V27",
-            "symbol_B": "DI1J28",
-            "covariance": -0.01269999984651804
-        },
-        {
-            "symbol_A": "DI1V30",
-            "symbol_B": "DI1J28",
-            "covariance": -0.012299999594688416
-        },
-        {
-            "symbol_A": "DI1V30",
-            "symbol_B": "DI1V28",
-            "covariance": -0.0007999999797903001
         }
     ]
 }

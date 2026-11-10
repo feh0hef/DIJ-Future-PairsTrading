@@ -30,7 +30,7 @@ def main():
         print(f"Error calculating or saving signals: {e}")
         return
 
-    print("Process completed successfully.")
+    print("[SUCCESS] Process completed.")
 
 
 if __name__ == "__main__":
