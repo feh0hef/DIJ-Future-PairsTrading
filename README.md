@@ -1,5 +1,4 @@
-Dear GPT wrote this README.
-Honestly, a boring work -- thanks GPT
+Dear GPT wrote this README, honestly, a boring work -- thanks GPT
 
 --------------------
 
