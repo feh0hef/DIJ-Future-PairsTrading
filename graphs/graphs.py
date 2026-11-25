@@ -182,4 +182,7 @@ def plot_backtest():
 
 if __name__ == '__main__':
 
-    plot_backtest()
+    matrix = signal_correlation()
+    clusters, model = cluster_signal_correlation(matrix, k=6)
+
+    plot_signal_clusters(clusters)

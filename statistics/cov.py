@@ -130,7 +130,8 @@ def run_inter_cluster_analysis(matrix: pd.DataFrame, clusters_df: pd.DataFrame, 
     Orchestrates the cross-covariance loop between all distinct cluster combinations.
     Returns a dictionary mapped by (cluster_A, cluster_B) containing the resulting PyTorch Tensors.
     """
-    unique_clusters = sorted(clusters_df['Cluster'].unique())
+    unique_clusters = [0,2,3,5] #sorted(clusters_df['Cluster'].unique())
+    print(unique_clusters)
     covariances_dict = {}
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -216,3 +217,4 @@ def save_covariances_to_json(matrix: pd.DataFrame, clusters_df: pd.DataFrame, co
         json.dump(negative_pairs_data, f, indent=4)
         
     print(f"[SUCCESS] Negative covariance pairs successfully exported to: {file_path}")
+

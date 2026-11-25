@@ -10,6 +10,7 @@ PIPELINE = ("main.py", "interactions.py", "pairs.py")
 def main() -> int:
     for script_name in PIPELINE:
         script_path = BASE_DIR / script_name
+        
         if not script_path.is_file():
             print(f"File not found: {script_path}", file=sys.stderr)
             return 1
@@ -29,3 +30,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+    #day 0 = 2026-10-18
